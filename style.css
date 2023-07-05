@@ -1,0 +1,10 @@
+:root{
+    --colore: #C67F7F;
+    --color_testo: darkred;
+    --sfondo_body:#ececec;
+    --font: Rajdhani;
+    --font2: "Nova Square";
+}
+body{
+    background-color: var(--sfondo_body);
+}
