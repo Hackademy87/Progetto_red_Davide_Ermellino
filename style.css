@@ -2,9 +2,24 @@
     --colore: #C67F7F;
     --color_testo: darkred;
     --sfondo_body:#ececec;
-    --font: Rajdhani;
+    --font: "Rajdhani";
     --font2: "Nova Square";
 }
 body{
     background-color: var(--sfondo_body);
+}
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+.link_navbar{
+    text-decoration: none;
+    color: grey;
+}
+.logo{
+    width: 130px;
+    height: 65px;
+}
+.div_link_navbar{
+    height: 75px;
+    width: 500px;
 }
