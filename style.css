@@ -118,7 +118,7 @@ border: none;
 
 }
 .titolo-timeline{
-  margin-left: 65px;
+  margin-left: 60px;
 }
 .titolo-paragrafo-timeline::before{
   content: "";
