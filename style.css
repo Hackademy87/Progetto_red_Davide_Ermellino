@@ -108,3 +108,27 @@ border: none;
 .button-text{
     font-size: medium;
 }
+/* TIMELINE */
+.timeline{
+  margin-top: 84px;
+}
+.colonna-timeline-paragrafi{
+  width: 90%;
+  border-left: 4px solid var(--color_testo);
+
+}
+.titolo-timeline{
+  margin-left: 65px;
+}
+.titolo-paragrafo-timeline::before{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid var(--color_testo);
+  border-radius: 50%;
+  position:absolute;
+  left: -28px;
+  top: 0;
+}
