@@ -5,6 +5,9 @@
   --font: "Rajdhani";
   --font2: "Nova Square";
 }
+.font-custom{
+    font-family: var(--font2);
+}
 body {
   background-color: var(--sfondo_body);
 }
@@ -12,6 +15,11 @@ body {
   font-family: "Rajdhani", sans-serif;
 }
 /* NAVBAR  */
+.nav-item{
+    margin: 0 50px ;
+    text-decoration: none;
+  color: grey;
+}
 .link_navbar {
   text-decoration: none;
   color: grey;
@@ -20,20 +28,24 @@ body {
   width: 130px;
   height: 65px;
 }
-.div_link_navbar {
-  height: 75px;
-  width: 500px;
-}
+
 /* HEADER  */
 .header {
   background: linear-gradient(white, transparent),
     url(media/switzerland-862870_1920.jpg);
   background-size: cover;
+
 }
 h1 {
+    transform: translateX(0.6em);
   letter-spacing: 0.6em;
   color: var(--color_testo);
   font-family: var(--font2);
   font-size: 5em;
   font-weight:500;
+}
+/* MAIN  */
+.Paragrafo_iniziale{
+    font-size: 1.2em;
+    font-weight: 500;
 }
