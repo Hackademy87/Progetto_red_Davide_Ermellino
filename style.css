@@ -1,25 +1,39 @@
-:root{
-    --colore: #C67F7F;
-    --color_testo: darkred;
-    --sfondo_body:#ececec;
-    --font: "Rajdhani";
-    --font2: "Nova Square";
+:root {
+  --colore: #c67f7f;
+  --color_testo: darkred;
+  --sfondo_body: #ececec;
+  --font: "Rajdhani";
+  --font2: "Nova Square";
 }
-body{
-    background-color: var(--sfondo_body);
+body {
+  background-color: var(--sfondo_body);
 }
-*{
-    font-family: 'Rajdhani', sans-serif;
+* {
+  font-family: "Rajdhani", sans-serif;
 }
-.link_navbar{
-    text-decoration: none;
-    color: grey;
+/* NAVBAR  */
+.link_navbar {
+  text-decoration: none;
+  color: grey;
 }
-.logo{
-    width: 130px;
-    height: 65px;
+.logo {
+  width: 130px;
+  height: 65px;
 }
-.div_link_navbar{
-    height: 75px;
-    width: 500px;
+.div_link_navbar {
+  height: 75px;
+  width: 500px;
+}
+/* HEADER  */
+.header {
+  background: linear-gradient(white, transparent),
+    url(media/switzerland-862870_1920.jpg);
+  background-size: cover;
+}
+h1 {
+  letter-spacing: 0.6em;
+  color: var(--color_testo);
+  font-family: var(--font2);
+  font-size: 5em;
+  font-weight:500;
 }
