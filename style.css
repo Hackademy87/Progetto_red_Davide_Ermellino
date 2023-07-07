@@ -132,3 +132,23 @@ border: none;
   left: -28px;
   top: 0;
 }
+/* SEZIONE TEAM  */
+.bordo-immagine-team{
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  border: 3px solid var(--color_testo);
+}
+.immagine-team{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.descrizione-team{
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+}
+.sezione-team{
+  margin-top: 125px;
+}
