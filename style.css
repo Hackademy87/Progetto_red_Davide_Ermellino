@@ -171,3 +171,10 @@ border: none;
   font-size: 17px;
   font-weight: 600;
 }
+/* SEZIONE FOOTER  */
+.footer{
+  background-color: var(--color_testo);
+}
+.immagine-footer{
+  background-color: var(--sfondo_body);
+}
