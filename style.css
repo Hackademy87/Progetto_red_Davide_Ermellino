@@ -178,3 +178,14 @@ border: none;
 .immagine-footer{
   background-color: var(--sfondo_body);
 }
+/* MEDIA QUERY */
+/* NAVBAR */
+@media  screen and (max-width: 991px) {
+  .navbar-bottone{
+    justify-content: end !important;
+  }
+.navbar-logo{
+  display: flex;
+  align-items: center !important;
+}
+}
